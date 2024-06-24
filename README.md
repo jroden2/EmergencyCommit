@@ -6,6 +6,15 @@ This is a repo for creating an emergency commit in the event of a fire. Its a fu
 
 It will however work for none-emergency use too, obviously.
 
+## Prerequisites
+Your username exported as `${USERNAME}` 
+A *NIX machine, with `uuidgen` present- Might work on WSL, untested.
+
+## How do I use it?
+You will need to pull the emergency.sh into your project, this will let you run `./emergency.sh` from your terminal and it will commit to a branch name such as `jroden2_CC6BFF7C-517C-40D6-B86D-1F51965EF6DA` 
+
+### Pitfalls?
+This does no checks for any git-lint or CI/CD config, so if you have a requirement for prefixes (`feature/`, `/release` etc) or Symantic commits, you'll need to adjust for your use case.!
 
 ## Licence
 Copyright 2024 Jack Roden (Jroden2)
